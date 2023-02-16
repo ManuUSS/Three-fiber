@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
-export const ThreeDWrapper = ({ children, className  }) => {
+export const ThreeDWrapper = ({ children, className, ableOrbitControls = false  }) => {
   return (
     <Canvas
         className={ className }
@@ -10,7 +10,9 @@ export const ThreeDWrapper = ({ children, className  }) => {
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
         { children }
-        <OrbitControls enableZoom={ false }/>
+        {
+          ableOrbitControls && <OrbitControls enableZoom={ false }/>
+        }
     </Canvas>   
   )
 }
