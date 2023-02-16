@@ -23,8 +23,8 @@ body {
 
 section {
   height: 100vh;
-  background-color: aqua;
 }
+
 
 .canvas-circle {
   background: var(--color-primary);

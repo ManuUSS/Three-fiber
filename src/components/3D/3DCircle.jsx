@@ -1,11 +1,11 @@
 import { MeshDistortMaterial, Sphere } from "@react-three/drei"
 
 
-export const ThreeDCircle = ({ position }) => {
+export const ThreeDCircle = ({ position, scale }) => {
   return (
     <Sphere
         args={[ 1, 100, 200 ]}
-        scale={ 2 }
+        scale={ scale }
         position={ position }
     >
         <MeshDistortMaterial 
