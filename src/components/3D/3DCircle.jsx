@@ -13,9 +13,6 @@ export const ThreeDCircle = ({ position, scale }) => {
     setIsHovered( true );
   }
 
-  const onHoverOutElement = () => {
-    setIsHovered( false );
-  }
 
   return (
     <Sphere
@@ -24,7 +21,6 @@ export const ThreeDCircle = ({ position, scale }) => {
       scale={ initialScale }
       position={ positionSphere }
       onPointerOver={ onHoverElement }
-      onPointerOut={ onHoverOutElement }
     >
         <MeshDistortMaterial 
             color={ isHovered ? '#e76f51' : '' }
