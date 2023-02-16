@@ -7,7 +7,7 @@ function App() {
       <SectionFull>
         <div className="flex flex-row items-center h-full">
 
-          <div className="flex-grow-1 bg-transparent ml-5 absolute">
+          <div className="flex-grow-1 bg-transparent ml-5 absolute z-10">
             <h1 className="text-6xl font-bold">Manuel Ulate Sancho</h1>
             <h2 className="text-2xl">Front End Developer & UX/UI Designer</h2>
           </div>
