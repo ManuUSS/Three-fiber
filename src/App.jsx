@@ -1,8 +1,14 @@
+import { SectionFull, ThreeDElement, ThreeDWrapper } from "./components"
 
 
 function App() {
   return (
-    <h1 className="color--primary">Hola</h1>
+    <SectionFull>
+      <ThreeDWrapper>
+        <ThreeDElement position={[ 1, 0, 0 ]} />
+        <ThreeDElement position={[ -2, 0, 0 ]} />
+      </ThreeDWrapper>
+    </SectionFull>
   )
 }
 
