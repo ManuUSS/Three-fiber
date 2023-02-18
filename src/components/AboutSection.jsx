@@ -9,7 +9,9 @@ export const AboutSection = () => {
                 <div>
                   <h2 className="text-4xl">Acerca de mí</h2>
                   <p className='text-sm'>
-                    Mi nombre es Manuel Ulate Sancho, vivo en San Ramón de Alajuela, Costa Rica
+                    Mi nombre es Manuel Ulate Sancho, vivo en San Ramón de Alajuela, Costa Rica. <br />
+                    Nací en una gran familia, mi padre se llama Victor Ulate y mi madre Jinnette Sancho <br />
+                    ellos 
                   </p>
                 </div>
                 <Scene/>
