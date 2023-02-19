@@ -3,7 +3,7 @@ import { SectionFull } from './Section';
 export const AboutSection = () => {
   return (
     <SectionFull>
-        <div className="grid grid-cols-4 h-full p-5">
+        <div className="grid grid-cols-4 h-full p-5 py-10">
             <div className='flex justify-between col-span-4'>
                 <div>
                   <h2 className="text-4xl">Acerca de mí</h2>
