@@ -14,7 +14,6 @@ export const AboutSection = () => {
                     ellos 
                   </p>
                 </div>
-                <Scene/>
             </div>
         </div>
     </SectionFull>
