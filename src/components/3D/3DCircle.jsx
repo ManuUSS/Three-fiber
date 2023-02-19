@@ -23,7 +23,7 @@ export const ThreeDCircle = ({ position, scale }) => {
       onPointerOver={ onHoverElement }
     >
         <MeshDistortMaterial 
-            color={ isHovered ? '#e76f51' : '' }
+            color={'#e76f51'  }
             attach='material'
             distort={ 0.5 }
         />
