@@ -1,4 +1,4 @@
-import { AboutSection, MainSection, SectionFull } from "./components"
+import { AboutSection, Footer, MainSection, SectionFull } from "./components"
 
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <MainSection />
       <AboutSection />
+      <Footer />
     </>
   )
 }
