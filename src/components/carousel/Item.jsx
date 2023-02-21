@@ -1,6 +1,6 @@
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image';
+import './Item.css';
 
 const fadeImages = [
   {
@@ -19,15 +19,18 @@ const fadeImages = [
 
 export const Slideshow = () => {
   return (
-    <div className="slide-container">
-      <Fade>
-        {fadeImages.map((fadeImage, index) => (
-          <div key={index}>
-            <img style={{ width: '100%' }} src={fadeImage.url} />
-            <h2>{fadeImage.caption}</h2>
-          </div>
-        ))}
-      </Fade>
-    </div>
+      <Slide
+        easing='ease'
+        duration={ 5000 }
+        indicators
+      >
+        {
+          fadeImages.map(( fadeImage ) => (
+            <div className='each-slide' key={ fadeImage.caption } >
+              <div style={{ backgroundImage: `url(${ fadeImage.url })` }}></div>
+            </div>
+          ))
+        }
+      </Slide>
   )
 }
