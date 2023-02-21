@@ -18,13 +18,11 @@ export const AboutSection = () => {
               <p className='text-sm  mt-2'>
                 Me encanta hacer ejercicio, desde pequeño he participado en diversos grupos deportivos, tanto baloncesto <br />
                 como fútbol; además, me encanta el arte y son un apasionado por la fotografía, este hobbie empezó de manera <br />
-                inesperada, y la verdad me ha hecho ver el mundo de una manera totalmente diferente.
+                inesperada, y la verdad me ha hecho ver el mundo de una manera totalmente diferente, estas son algunas de mis fotos <br />
+                favoritas a la fecha.
               </p>
           </div>
-          <div className="col-start-1 col-end-2 bg-orange-200">Hola</div>
-          <div className="col-start-2 col-end-3 bg-orange-200">Hola</div>
-          <div className="col-start-3 col-end-4 bg-orange-200">Hola</div>
-          <div className="col-start-4 col-end-5 bg-orange-200">Hola</div>
+          <div className="col-span-4 bg-orange-200">Hola</div>
         </div>
     </SectionFull>
   )
