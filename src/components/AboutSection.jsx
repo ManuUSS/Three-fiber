@@ -1,3 +1,5 @@
+import { CCarousel, CCarouselCaption, CCarouselItem, CImage } from '@coreui/react';
+import { ItemCarousel } from './carousel/Item';
 import { SectionFull } from './Section';
 
 export const AboutSection = () => {
@@ -22,7 +24,9 @@ export const AboutSection = () => {
                 favoritas a la fecha.
               </p>
           </div>
-          <div className="col-span-4 bg-orange-200">Hola</div>
+          <div className="col-span-4 bg-orange-200">
+            
+          </div>
         </div>
     </SectionFull>
   )

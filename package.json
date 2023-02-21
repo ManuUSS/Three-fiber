@@ -9,8 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coreui/coreui": "^4.2.6",
-    "@coreui/react": "^4.6.0",
     "@react-three/drei": "^9.56.25",
     "@react-three/fiber": "^8.11.1",
     "@splinetool/react-spline": "^2.2.5",
