@@ -1,5 +1,4 @@
-import { CCarousel, CCarouselCaption, CCarouselItem, CImage } from '@coreui/react';
-import { ItemCarousel } from './carousel/Item';
+import { Slideshow } from './carousel/Item';
 import { SectionFull } from './Section';
 
 export const AboutSection = () => {
@@ -25,7 +24,7 @@ export const AboutSection = () => {
               </p>
           </div>
           <div className="col-span-4 bg-orange-200">
-            
+            <Slideshow />
           </div>
         </div>
     </SectionFull>
